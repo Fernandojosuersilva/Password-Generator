@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 250px;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input {
+    width: 200px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttonG {
+  background-color: #2196f3;
+  color: white;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.buttonG:hover{
+    height: 50px;
+    margin-top: -5px;
+}
+.copyP {
+  background-color: #4caf50;
+  color: white;
+  width: 250px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.copyP:hover{
+    height: 50px;
+}
